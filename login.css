@@ -1,0 +1,45 @@
+.login-container {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.login-container h2 {
+  margin-bottom: 1.1rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.login-form input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: 0.8rem;
+}
+
+.forgot-password a {
+  color: #0077b6;
+  font-size: 0.96rem;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
